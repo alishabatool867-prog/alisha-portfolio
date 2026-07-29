@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Alisha Batool — Creative Digital Freelancer | Design, Video &amp; AI Content</title>
+<meta name="description" content="Alisha Batool is a creative digital freelancer specializing in graphic design, brand identity, video editing and AI-powered content — helping startups and personal brands grow." />
+<meta name="theme-color" content="#061109" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Alisha Batool — Creative Digital Freelancer" />
+<meta property="og:description" content="Design. Edit. Amplify. Creative direction, brand design, video editing and AI-powered content for brands that want to stand out." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <svg class="loader__mark" viewBox="0 0 120 120">
+    <circle class="loader__ring" cx="60" cy="60" r="46"></circle>
+    <text x="60" y="70" text-anchor="middle" class="loader__initial">AB</text>
+  </svg>
+  <p class="loader__label">plating pixels, one layer at a time</p>
+</div>
+
+<!-- ============ GRAIN / NOISE OVERLAY ============ -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav-wrap">
+  <nav class="nav glass" id="nav">
+    <a href="#home" class="nav__brand">
+      <span class="nav__brand-mark">A</span>
+      <span class="nav__brand-text">Alisha<em>.</em></span>
+    </a>
+
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2.5 12h3M18.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="#contact" class="btn btn--sm btn--solid">Hire Me</a>
+      <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__aurora" aria-hidden="true">
+      <svg class="aurora-svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <radialGradient id="auroraA" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#1ee6a3" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#1ee6a3" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="auroraB" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#0a6b4d" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#0a6b4d" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle class="blob blob--a" cx="260" cy="260" r="260" fill="url(#auroraA)"/>
+        <circle class="blob blob--b" cx="950" cy="620" r="320" fill="url(#auroraB)"/>
+        <circle class="blob blob--c" cx="880" cy="160" r="180" fill="url(#auroraA)"/>
+      </svg>
+    </div>
+
+    <div class="hero__inner">
+      <p class="eyebrow" data-reveal>Freelance creative studio · est. 2026</p>
+
+      <h1 class="hero__title" data-reveal>
+        <span class="hero__title-line">Hi, I'm</span>
+        <span class="hero__title-name">Alisha Batool</span>
+      </h1>
+
+      <p class="hero__role" data-reveal>
+        Creative Digital Freelancer <span class="dot">·</span> Graphic Designer <span class="dot">·</span> Video Editor <span class="dot">·</span> AI Content Creator
+      </p>
+
+      <p class="hero__sub" data-reveal>
+        I help businesses, startups, and personal brands grow through creative designs, engaging visuals,
+        professional video editing, and AI-powered content solutions.
+      </p>
+
+      <div class="hero__actions" data-reveal>
+        <a href="#portfolio" class="btn btn--solid">View My Portfolio</a>
+        <a href="#contact" class="btn btn--ghost">Hire Me</a>
+        <a href="#contact" class="btn btn--text">Contact Me →</a>
+      </div>
+
+      <div class="hero__stats" data-reveal>
+        <div class="stat"><span class="stat__num" data-count="10+">0</span><span class="stat__label">practice Projects</span></div>
+        <div class="stat"><span class="stat__num" data-count="6+">0</span><span class="stat__label">creative skills</span></div>
+        <div class="stat"><span class="stat__num" data-count="100%">0</span><span class="stat__label">Dedication</span></div>
+      </div>
+    </div>
+
+    <div class="hero__glass-card glass" data-reveal aria-hidden="true">
+      <div class="glass-card__row">
+        <span class="glass-card__dot"></span>
+        <span>Now designing — Coffee Brand Identity</span>
+      </div>
+      <div class="glass-card__tags">
+        <span>Branding</span><span>Motion</span><span>AI Prompting</span>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to explore">
+      <span>Scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">About me</p>
+      <h2>Design is how I say things I can't say in words.</h2>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__visual" data-reveal>
+        <div class="about__frame glass">
+          <div class="about__avatar"><img src="assets/a logo.png" alt="about me" style="width:100%; height: auto; border-redius: 12px; object-fit: contain;"></div>
+          <ul class="about__meta">
+            <li><span>Based in</span><strong>Punjab, Pakistan</strong></li>
+            <li><span>Working with</span><strong>Clients worldwide</strong></li>
+            <li><span>Available for</span><strong>Freelance &amp; contract</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="about__copy" data-reveal>
+        <p>
+          I'm Alisha — a creative digital freelancer who turns half-formed ideas into brands people remember.
+          My work sits at the intersection of design, motion, and AI: I sketch a logo in the morning, cut a
+          short-form video by lunch, and prompt-engineer a content system by evening.
+        </p>
+        <p>
+          I care about the details most people scroll past — the kerning, the frame timing, the exact shade
+          of a brand's green. That attention is what makes a Canva post look designed, not templated, and a
+          30-second video feel intentional rather than assembled.
+        </p>
+        <p>
+          Every project starts with the same question: what does this brand need to feel like to earn trust
+          in three seconds? Everything else — palette, pacing, prompts — follows from that answer.
+        </p>
+        <div class="about__pills">
+          <span>Detail-obsessed</span>
+          <span>Deadline-reliable</span>
+          <span>AI-fluent</span>
+          <span>Brand-first thinking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">What I offer</p>
+      <h2>Services built around how brands actually grow</h2>
+      <p class="section-sub">From first logo sketch to the video that finally gets shared — pick one service or build a full creative pipeline.</p>
+    </div>
+
+    <div class="services__grid" id="servicesGrid">
+      <!-- populated by JS -->
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Toolkit</p>
+      <h2>Tools I've made second nature</h2>
+    </div>
+
+    <div class="skills__wrap">
+      <div class="skills__bars" data-reveal>
+        <h3>Design &amp; Craft</h3>
+        <div class="bar" data-level="96"><div class="bar__top"><span>Graphic Design</span><em>96%</em></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+        <div class="bar" data-level="90"><div class="bar__top"><span>website Devolper</span><em>90%</em></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+        <div class="bar" data-level="88"><div class="bar__top"><span>Logo Design</span><em>88%</em></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+        <div class="bar" data-level="93"><div class="bar__top"><span>Social Media Design</span><em>93%</em></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+        <div class="bar" data-level="85"><div class="bar__top"><span>Video Editing</span><em>85%</em></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+        <div class="bar" data-level="82"><div class="bar__top"><span>UGC Script Writing</span><em>82%</em></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+      </div>
+
+      <div class="skills__badges" data-reveal>
+        <h3>Software &amp; AI</h3>
+        <div class="badge-grid">
+          <span class="badge">Canva</span>
+          <span class="badge">video Editor</span>
+          <span class="badge">scriptwritter</span>
+          <span class="badge">CapCut</span>
+          <span class="badge">AI Prompt Engineering</span>
+          <span class="badge">website Devolper</span>
+          <span class="badge">Claude AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Selected work</p>
+      <h2>A few things I'm proud to have made</h2>
+      <p class="section-sub">Placeholder previews below — swap in your final case-study images and links.</p>
+    </div>
+
+    <div class="portfolio__filter" data-reveal>
+      <button class="filter-btn is-active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="Branding">Branding</button>
+      <button class="filter-btn" data-filter="Social">Social</button>
+      <button class="filter-btn" data-filter="Video">Video</button>
+      <button class="filter-btn" data-filter="Presentation">Presentation</button>
+    </div>
+
+    <div class="portfolio__grid" id="portfolioGrid">
+      <!-- populated by JS -->
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE ME ============ -->
+  <section class="why" id="why">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Why work with me</p>
+      <h2>Reasons clients come back for a second project</h2>
+    </div>
+
+    <div class="why__grid" id="whyGrid">
+      <!-- populated by JS -->
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">THE VALUE I DELIVER</p>
+      <h2>Designed to drive results, clear communication, and fast delivery</h2>
+    </div>
+
+    <div class="testimonials__grid" id="testimonialsGrid">
+      <!-- populated by JS -->
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Good to know</p>
+      <h2>Frequently asked questions</h2>
+    </div>
+
+    <div class="faq__list" id="faqList">
+      <!-- populated by JS -->
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="contact__grid">
+      <div class="contact__intro" data-reveal>
+        <p class="eyebrow">Let's build something</p>
+        <h2>Tell me about your project</h2>
+        <p class="section-sub">
+          Share a few details and I'll reply within one business day with next steps, a timeline, and a quote.
+        </p>
+
+        <ul class="contact__list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+            <a href="mailto:alishabatool867@gmail.com">alishabatool867@gmail.com</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <span>Reply time: under 24 hours</span>
+          </li>
+        </ul>
+
+        <div class="socials">
+          <a href="#" aria-label="Fiverr" class="social">Fi</a>
+          <a href="#" aria-label="LinkedIn" class="social">in</a>
+          <a href="#" aria-label="Instagram" class="social">Ig</a>
+          <a href="#" aria-label="GitHub" class="social">Gh</a>
+          <a href="mailto:hello@alishabatool.com" aria-label="Email" class="social">@</a>
+        </div>
+      </div>
+
+      <form class="contact__form glass" id="contactForm" data-reveal>
+        <div class="form-row">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your full name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@company.com" required>
+          </label>
+        </div>
+        <label>
+          <span>Subject</span>
+          <input type="text" name="subject" placeholder="What's this about?" required>
+        </label>
+        <label>
+          <span>Project details</span>
+          <textarea name="details" rows="5" placeholder="Tell me about your brand, timeline, and budget…" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--solid btn--block">
+          <span class="btn__label">Send Message</span>
+          <span class="btn__sent">Sent — talk soon ✓</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__top">
+    <a href="#home" class="nav__brand">
+      <span class="nav__brand-mark">A</span>
+      <span class="nav__brand-text">Alisha<em>.</em></span>
+    </a>
+
+    <ul class="footer__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  </div>
+  <div class="footer__bottom">
+    <p>© 2026 Alisha Batool. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
