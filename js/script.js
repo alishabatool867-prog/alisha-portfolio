@@ -96,19 +96,20 @@
       <h3>${s.title}</h3>
       <p>${s.desc}</p>
     </div>`
+
     )
     .join("");
 
   /* ---------- Data: Portfolio ---------- */
   const projects = [
-    { title: "Coffee Brand Identity", cat: "Branding", desc: "Full identity system for an independent coffee roastery — logo, packaging, and menu design", img:"assets/terrabean coffee.png" },
-    { title: "Eco Fashion Brand Design", cat: "Branding", desc: "Sustainable-fashion visual identity built around earth tones and recycled-paper textures", img:"assets/fashion.png" },
-    { title: "Social Media Campaign", cat: "Social", desc: "A 30-post launch campaign for a wellness brand, designed for consistency at speed", img:"assets/social.png"},
-    { title: "Logo Collection", cat: "Branding", desc: "A curated set of marks for startups across fintech, food, and fitness", img:"assets/landing page.jpg"},
-    { title: "Business Presentation", cat: "Presentation", desc: "Investor deck redesign that clarified the story and doubled meeting requests" , img:"assets/presentation.png"},
-    { title: "YouTube Thumbnail Collection", cat: "Social", desc: "A batch of high-CTR thumbnails for a tech-review channel", img:"assets/youtube thumbnail.png"},
-    { title: "Instagram Post Designs", cat: "Social", desc: "Grid-cohesive carousel and static post templates for a personal brand", img:"assets/open .png"},
-    { title: "Video Editing Showcase", cat: "Video", desc: "Short-form highlight reel showing pacing, captions, and colour work", img:"assets/video editing.png"},
+    { title: "Coffee Brand Identity", cat: "Branding", desc: "Full identity system for an independent coffee roastery — logo, packaging, and menu design", img:"css/assets/terrabean coffee.png" },
+    { title: "Eco Fashion Brand Design", cat: "Branding", desc: "Sustainable-fashion visual identity built around earth tones and recycled-paper textures", img:"css/assets/fashion.png" },
+    { title: "Social Media Campaign", cat: "Social", desc: "A 30-post launch campaign for a wellness brand, designed for consistency at speed", img:"css/assets/social.png"},
+    { title: "Logo Collection", cat: "Branding", desc: "A curated set of marks for startups across fintech, food, and fitness", img:"css/assets/landing page.jpg"},
+    { title: "Business Presentation", cat: "Presentation", desc: "Investor deck redesign that clarified the story and doubled meeting requests" , img:"css/assets/presentation.png"},
+    { title: "YouTube Thumbnail Collection", cat: "Social", desc: "A batch of high-CTR thumbnails for a tech-review channel", img:"css/assets/youtube thumbnail.png"},
+    { title: "Instagram Post Designs", cat: "Social", desc: "Grid-cohesive carousel and static post templates for a personal brand", img:"css/assets/open .png"},
+    { title: "Video Editing Showcase", cat: "Video", desc: "Short-form highlight reel showing pacing, captions, and colour work", img:"css/assets/video editing.png"},
   ];
 
   const portfolioGrid = document.getElementById("portfolioGrid");
